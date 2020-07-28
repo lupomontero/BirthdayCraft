@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xax",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "birthdaycraft:purple_corn"
+    },
+    "a": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "birthdaycraft:chicha_morada",
+    "count": 2
+  }
+}
