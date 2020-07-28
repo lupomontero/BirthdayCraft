@@ -31,6 +31,7 @@ public class RegistryHandler {
   public static final RegistryObject<PopCorn> POP_CORN = ITEMS.register("pop_corn", PopCorn::new);
   // cocoa, chocolate, ...
 
+  // Pokeballs...
   public static final RegistryObject<Item> POKEBALL = ITEMS.register("pokeball", ItemBase::new);
   public static final RegistryObject<Item> POKEBALL_GOLD = ITEMS.register("pokeball_gold", ItemBase::new);
   public static final RegistryObject<Item> POKEBALL_MASTER = ITEMS.register("pokeball_master", ItemBase::new);
@@ -38,7 +39,7 @@ public class RegistryHandler {
   // Fluids??
   public static final RegistryObject<ChichaMorada> CHICHA_MORADA = ITEMS.register("chicha_morada", ChichaMorada::new);
 
-  // Tools
+  // Tools & weapons?
   public static final RegistryObject<Item> MAGIC_SWORD = ITEMS.register("magic_sword", ItemBase::new);
   public static final RegistryObject<Item> SWORD_OF_DESTRUCTION = ITEMS.register("sword_of_destruction", ItemBase::new);
   public static final RegistryObject<Item> SWORD_OF_LAVA = ITEMS.register("sword_of_lava", ItemBase::new);
