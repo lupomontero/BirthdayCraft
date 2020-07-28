@@ -1,5 +1,13 @@
 {
   "itemGroup.birthdaycraftTab": "BirthdayCraft",
   "item.birthdaycraft.candy": "Caramelos",
+  "item.birthdaycraft.corn": "Maíz",
+  "item.birthdaycraft.purple_corn": "Maíz morado",
+  "item.birthdaycraft.pop_corn": "Canchita",
+  "item.birthdaycraft.pokeball": "Pokebola",
+  "item.birthdaycraft.pokeball_gold": "Pokebola dorada",
+  "item.birthdaycraft.pokeball_master": "Mastereball",
+  "item.birthdaycraft.sword_of_destruction": "Espada de la destrucción",
+  "item.birthdaycraft.chicha_morada": "Chicha morada",
   "block.birthdaycraft.candy_block": "Bloque de caramelos"
 }

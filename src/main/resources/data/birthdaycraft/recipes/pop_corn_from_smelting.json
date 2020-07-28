@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "birthdaycraft:corn"
+  },
+  "result":  {
+    "item": "birthdaycraft:pop_corn",
+    "count": 3
+  }
+}
