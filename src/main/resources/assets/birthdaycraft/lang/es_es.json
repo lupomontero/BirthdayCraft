@@ -7,7 +7,10 @@
   "item.birthdaycraft.pokeball": "Pokebola",
   "item.birthdaycraft.pokeball_gold": "Pokebola dorada",
   "item.birthdaycraft.pokeball_master": "Mastereball",
-  "item.birthdaycraft.sword_of_destruction": "Espada de la destrucción",
   "item.birthdaycraft.chicha_morada": "Chicha morada",
+  "item.birthdaycraft.magic_sword": "Espada mágica",
+  "item.birthdaycraft.sword_of_destruction": "Espada de la destrucción",
+  "item.birthdaycraft.sword_of_lava": "Espada de lava",
+  "item.birthdaycraft.hammer_of_power": "Martillo de poder",
   "block.birthdaycraft.candy_block": "Bloque de caramelos"
 }

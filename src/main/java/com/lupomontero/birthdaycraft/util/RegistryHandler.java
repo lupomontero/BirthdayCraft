@@ -35,10 +35,14 @@ public class RegistryHandler {
   public static final RegistryObject<Item> POKEBALL_GOLD = ITEMS.register("pokeball_gold", ItemBase::new);
   public static final RegistryObject<Item> POKEBALL_MASTER = ITEMS.register("pokeball_master", ItemBase::new);
 
-  public static final RegistryObject<Item> SWORD_OF_DESTRUCTION = ITEMS.register("sword_of_destruction", ItemBase::new);
-
   // Fluids??
   public static final RegistryObject<ChichaMorada> CHICHA_MORADA = ITEMS.register("chicha_morada", ChichaMorada::new);
+
+  // Tools
+  public static final RegistryObject<Item> MAGIC_SWORD = ITEMS.register("magic_sword", ItemBase::new);
+  public static final RegistryObject<Item> SWORD_OF_DESTRUCTION = ITEMS.register("sword_of_destruction", ItemBase::new);
+  public static final RegistryObject<Item> SWORD_OF_LAVA = ITEMS.register("sword_of_lava", ItemBase::new);
+  public static final RegistryObject<Item> HAMMER_OF_POWER = ITEMS.register("hammer_of_power", ItemBase::new);
 
   // Blocks
   public static final RegistryObject<Block> CANDY_BLOCK = BLOCKS.register("candy_block", CandyBlock::new);
