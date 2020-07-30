@@ -11,6 +11,12 @@ Alejandro's 8th birthday ;-)
 
 ## Installation
 
+* Install Minecraft Java Edition
+* Install JDK (Java Developers Kit)
+* Install Minecraft Forge
+* Create Forge installation within Minecraft Launcher if necessary
+* Install BirthdayCraft mod
+
 ### Install Minecraft Java Edition
 
 This _mod_ is designed for [Minecraft Java Edition](https://www.minecraft.net/es-es/store/minecraft-java-edition/), which can be installed on Windows, MacOS and Linux.
@@ -18,7 +24,16 @@ If you don't already have it, you can buy it [here](https://www.minecraft.net/es
 (26,95 US$). After buying and downloading, you should end up with
 _Minecraft Launcher_ installed.
 
-![image](https://user-images.githubusercontent.com/110297/88874940-d9cc9200-d1e5-11ea-9533-1bac24b5a1ae.png)
+![image](https://user-images.githubusercontent.com/110297/88958435-1213b500-d266-11ea-99f7-44384ebef630.png)
+
+### Install JDK (Java Developers Kit)
+
+Before we can install Minecraft Forge and finally add mods, we need to have
+the Java Developers Kit (JDK) installed on our computer. There are many
+different distributions. I personally recommend downloading and installing
+OpenJDK 8 from the [AdoptOpenJDK](https://adoptopenjdk.net/).
+
+![image](https://user-images.githubusercontent.com/110297/88957166-17700000-d264-11ea-8af4-41eb549e8185.png)
 
 ### Install Minecraft Forge
 
@@ -44,7 +59,14 @@ you should see something like this:
 ![image](https://user-images.githubusercontent.com/110297/88876226-6ed08a80-d1e8-11ea-9155-3bea4caaea7a.png)
 
 Choose the option to _Install client_ in the default location, click OK and wait
-for the installation to finish.
+for the installation to finish. Take note of the folder where Minecraft files
+are stored. This will vary depending on your system:
+
+* **Windows**: Press `Win+R`, then type `%appdata%\.minecraft`, then press Ok.
+* **OS X**: In the Finder, from the Go menu, select 'Go to Folder', then type:
+  `~/Library/Application Support/minecraft`, and click Go.
+* **Linux**: `~` is your home directory, usually `/home/YOURNAME`, so
+  `~/.minecraft` would be `/home/YOURNAME/.minecraft/`.
 
 ### Create Forge installation within Minecraft Launcher if necessary
 
@@ -62,19 +84,39 @@ interface.
 ### Install BirthdayCraft mod
 
 Finally [download the mod](#) and move the downloaded `.jar` file to your
-Minecraft mods folder (`.minecraft/mods`). After doing this make sure to close
-and reopen Minecraft if it was already runnng.
+Minecraft `mods` folder. You can find your `mods` folder inside the folder that
+we mentioned in when installing the Forge:
 
-Enjoy!
+* **Windows**: `%appdata%\.minecraft\mods`.
+* **OS X**: `~/Library/Application Support/minecraft/mods`.
+* **Linux**: `~/.minecraft/mods`.
 
-<!--
+After doing this make sure to close and reopen Minecraft if it was already
+runnng.
+
 ## Usage
 
-### Blocks
+Finally, now that we have a Forge installation and mod in the right place, you
+should be able to _launch_ the `1.15.2-forge-31.2.0` installation (make sure you
+select the forge installation next to the green _play_ button).
 
-### Tools
+![image](https://user-images.githubusercontent.com/110297/88874940-d9cc9200-d1e5-11ea-9533-1bac24b5a1ae.png)
 
-### Armor
+The forge installation should now include a _Mods_ button. Click on it to see
+what mods are currently installed.
 
-### Items
--->
+![image](https://user-images.githubusercontent.com/110297/88958618-5c953180-d266-11ea-8f3c-53f1aec0276a.png)
+
+You should see the _BirthdayCraft_ mod listed along with Minecraft itself and
+the forge installation.
+
+![image](https://user-images.githubusercontent.com/110297/88958908-c1e92280-d266-11ea-8742-e073d3362c5c.png)
+
+Create a new world in creative mode and access the _inventory_ using the `e`
+key. You should now see the _BirthdayCraft Creative Tab_, with all the custom
+blocks, items, tools, armour, etc.
+
+![image](https://user-images.githubusercontent.com/110297/88959208-3f149780-d267-11ea-83c6-b441aa3796df.png)
+
+
+Enjoy!
