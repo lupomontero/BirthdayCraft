@@ -83,9 +83,10 @@ interface.
 
 ### Install BirthdayCraft mod
 
-Finally [download the mod](#) and move the downloaded `.jar` file to your
-Minecraft `mods` folder. You can find your `mods` folder inside the folder that
-we mentioned in when installing the Forge:
+Finally [download the mod](https://github.com/lupomontero/BirthdayCraft/releases/download/v1.15.2-1.0.0/birthdaycraft-1.15.2-1.0.0.jar)
+and move the downloaded `.jar` file to your Minecraft `mods` folder. You can
+find your `mods` folder inside the folder that we mentioned in when installing
+the Forge:
 
 * **Windows**: `%appdata%\.minecraft\mods`.
 * **OS X**: `~/Library/Application Support/minecraft/mods`.
